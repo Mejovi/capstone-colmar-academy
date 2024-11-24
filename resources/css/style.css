@@ -90,7 +90,7 @@ header {
     list-style-type: none;
     flex-direction: column;
     width: 45%;
-    margin: 16px 24px 32px 0;
+    margin: 16px 0 32px 0;
 }
 
 .practice-list li {
@@ -110,4 +110,37 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+/* 3rd section */
+
+.third-section {
+    background-color: rgb(207, 207, 207);
+}
+
+.learning-heading {
+    padding-top: 32px;
+    text-align: center;
+    margin: 0;
+}
+
+.learning-grid {
+    table-layout: fixed;
+    width: 100%;
+    padding: 0 72px;
+    border-spacing: 32px;
+}
+
+.learning-grid img {
+    width: 100%;
+}
+
+td {
+    overflow: hidden;
+    align-content: baseline;
+    padding: 0 0 24px 0;
+    background-color: white;
+}
+
+.learn-text {
+    padding: 0 16px;
 }
