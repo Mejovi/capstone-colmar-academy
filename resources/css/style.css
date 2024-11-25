@@ -70,7 +70,7 @@ header {
     color: white;
 }
 
-/* 2nd section */
+/* 2nd/4th section */
 
 .second-section {
     display: flex;
@@ -96,7 +96,7 @@ header {
 .practice-list li {
     display: flex;
     flex-direction: row;
-    margin: 16px;
+    padding: 16px;
 }
 
 .p-list-img {
@@ -110,6 +110,10 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.guest-item {
+    background-color: rgb(207, 207, 207);
 }
 /* 3rd section */
 
@@ -143,4 +147,23 @@ td {
 
 .learn-text {
     padding: 0 16px;
+}
+
+/* footer */
+footer {
+    padding: 16px 24px;
+}
+.left-footer {
+    display: inline;
+}
+
+.right-footer {
+    float: right;
+    display: inline-flex;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+.right-footer li {
+    margin:0 8px;
 }
