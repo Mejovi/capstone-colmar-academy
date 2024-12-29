@@ -116,11 +116,6 @@ header {
 /* 2nd/4th section */
 
 @media (min-width:320px) and (max-width:960px){
-    .practice-bit {
-        display: none;
-
-    }
-
     .practice-list {
         width: 100%;
     }
@@ -163,6 +158,11 @@ header {
     }
 }
 
+@media (min-width:320px) and (max-width: 960px) {
+    .practice-bit video{
+        width: 100%;
+    }
+}
 
 .second-section {
     display: flex;
@@ -250,6 +250,17 @@ td {
 .learn-text {
     padding: 0 16px;
 }
+
+/* fourth section */
+
+.fourth-section {
+    margin: 32px 0 24px;
+}
+
+.fourth-section h2 {
+    margin: 16px 0;
+}
+
 
 /* footer */
 footer {
